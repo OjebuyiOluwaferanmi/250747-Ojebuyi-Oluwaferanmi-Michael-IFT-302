@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Michael Ojebuyi - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">michael<span>.dev</span></div>
+      <button id="menuToggle">Menu</button>
+      <ul id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="hero">
+      <div class="inner">
+        <p class="pretitle">Hello, I'm</p>
+        <h1>
+          Oluwaferanmi Ojebuyi<br />Computer Science
+          <span>Student</span>
+        </h1>
+        <p class="desc">
+          I enjoy building simple, useful software and learning how to design
+          better systems, one project at a time.
+        </p>
+        <a href="#contact" class="btn">Contact Me</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="inner">
+        <h2 class="section-title">About</h2>
+        <p>
+          I'm a Computer Science student learning how to design and build
+          software. I enjoy working on small projects that help me practice
+          programming concepts and problem solving, and I'm currently improving
+          my skills in web development and software design.
+        </p>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="inner">
+        <h2 class="section-title">Projects</h2>
+        <div class="project-grid">
+          <div class="project-card">
+            <h3>Student Grade Tracker</h3>
+            <p>
+              A simple app that lets students enter scores and calculates their
+              average grade.
+            </p>
+            <span>Python</span>
+          </div>
+          <div class="project-card">
+            <h3>To-Do List App</h3>
+            <p>
+              A to-do list where users can add, complete, and delete daily
+              tasks.
+            </p>
+            <span>JavaScript</span>
+          </div>
+          <div class="project-card">
+            <h3>Library Catalog System</h3>
+            <p>
+              A program that manages a small library's books, tracking who
+              borrowed what.
+            </p>
+            <span>Java</span>
+          </div>
+          <div class="project-card">
+            <h3>Weather Lookup Tool</h3>
+            <p>
+              A tool that displays basic weather information for a city entered
+              by the user.
+            </p>
+            <span>HTML/CSS</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="inner">
+        <h2 class="section-title">Skills</h2>
+        <ul class="skills-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Python</li>
+          <li>Java</li>
+          <li>Problem Solving</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="inner">
+        <h2 class="section-title">Contact</h2>
+        <form id="contactForm">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea rows="4" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+        <p id="formMsg">Thanks! Your message has been noted.</p>
+      </div>
+    </section>
+
+    <footer>&copy; 2026 Michael Ojebuyi. All rights reserved.</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
