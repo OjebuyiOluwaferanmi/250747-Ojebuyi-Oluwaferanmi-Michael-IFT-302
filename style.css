@@ -14,7 +14,6 @@ body {
 }
 h1, h2, h3 { font-family: 'Poppins', Arial, sans-serif; font-weight: 700; }
 
-/* navbar */
 nav.navbar {
   position: fixed;
   top: 0; left: 0; right: 0;
@@ -81,7 +80,6 @@ h2.section-title::after {
   background: var(--blue);
 }
 
-/* hero */
 #hero {
   background: var(--black);
   color: var(--white);
@@ -110,11 +108,9 @@ h2.section-title::after {
 }
 .btn:hover { background: #2942ac; }
 
-/* about - light section */
 #about { background: var(--white); }
 #about p { color: var(--text-dim-light); max-width: 65ch; font-size: 15.5px; }
 
-/* projects - dark section */
 #projects { background: var(--black); color: var(--white); }
 #projects h2.section-title { color: var(--white); }
 .project-grid {
@@ -138,7 +134,6 @@ h2.section-title::after {
   padding: 3px 10px;
 }
 
-/* skills - light */
 #skills { background: var(--white); }
 .skills-list { list-style: none; display: flex; flex-wrap: wrap; gap: 12px; }
 .skills-list li {
@@ -150,7 +145,6 @@ h2.section-title::after {
   border-bottom: 3px solid var(--blue);
 }
 
-/* contact - dark */
 #contact { background: var(--black); color: var(--white); }
 #contact h2.section-title { color: var(--white); }
 form { display: flex; flex-direction: column; max-width: 460px; gap: 14px; }

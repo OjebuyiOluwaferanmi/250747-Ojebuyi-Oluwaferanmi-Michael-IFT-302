@@ -1,11 +1,9 @@
-// mobile menu toggle
 var menuToggle = document.getElementById("menuToggle");
 var navLinks = document.getElementById("navLinks");
 menuToggle.addEventListener("click", function () {
   navLinks.classList.toggle("open");
 });
 
-// smooth scroll + active link highlight + close mobile menu
 var links = document.querySelectorAll("nav a");
 links.forEach(function (link) {
   link.addEventListener("click", function (e) {
@@ -31,7 +29,6 @@ window.addEventListener("scroll", function () {
   });
 });
 
-// basic form handling (no backend, just shows a message)
 document.getElementById("contactForm").addEventListener("submit", function (e) {
   e.preventDefault();
   document.getElementById("formMsg").style.display = "block";
